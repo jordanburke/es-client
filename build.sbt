@@ -2,9 +2,9 @@ name := "es-client"
 
 organization := "com.github.piotr-kalanski"
 
-version := "0.3.0"
+version := "0.3.0.12"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.7"
 
 licenses := Seq("Apache License, Version 2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0.txt"))
 
@@ -39,6 +39,7 @@ coverageExcludedPackages := "com.datawizards.esclient.examples.*"
 
 publishMavenStyle := true
 
+/*
 publishTo := {
   val nexus = "https://oss.sonatype.org/"
   if (isSnapshot.value)
@@ -46,3 +47,4 @@ publishTo := {
   else
     Some("releases"  at nexus + "service/local/staging/deploy/maven2")
 }
+*/
