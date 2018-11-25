@@ -32,7 +32,7 @@ libraryDependencies ++= Seq(
   "org.json4s" %% "json4s-native" % "3.2.11",
   "org.json4s" %% "json4s-jackson" % "3.2.11",
   "junit" % "junit" % "4.10" % "test",
-  "org.scalatest" %% "scalatest" % "2.2.6" % "test"
+  "org.scalatest" %% "scalatest" % "3.0.5" % "test"
 )
 
 coverageExcludedPackages := "com.datawizards.esclient.examples.*"
